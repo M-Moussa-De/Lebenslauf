@@ -4,7 +4,11 @@ einseitiger responsiver Lebenslauf für Schule
 
 ## Used technologies
 
-### HTML , ### CSS , ### Font Awesome
+### HTML
+
+### CSS
+
+### Font Awesome
 
 #### Screenshoots
 
