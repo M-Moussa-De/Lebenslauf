@@ -1,0 +1,21 @@
+section.skills {
+  border: none;
+}
+section.skills article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+section.skills article span {
+  background: rgba(238, 238, 238, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-weight: 600;
+}

@@ -1,0 +1,75 @@
+footer {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+footer h5 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  footer article {
+    flex-direction: column-reverse;
+  }
+  footer div.left {
+    margin-top: 1.5rem;
+  }
+}
+
+footer article div.left div {
+  display: flex;
+  align-items: center;
+}
+
+footer article div a {
+  margin-left: 1rem;
+}
+
+footer article div i {
+  color: rgba(255, 127, 80, 0.7);
+}
+
+footer article div.right form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+footer article div.right form input {
+  padding: 0.4rem;
+}
+footer article div.right form textarea {
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  display: block;
+}
+
+input,
+textarea {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+input:focus,
+textarea:focus {
+  border-color: rgb(206, 206, 206);
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  background: rgba(255, 127, 80, 0.7);
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+input[type="submit"]:hover {
+  background: rgba(255, 127, 80, 0.877);
+}
